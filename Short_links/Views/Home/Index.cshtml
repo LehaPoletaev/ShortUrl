@@ -1,0 +1,14 @@
+﻿
+<div class="shortener-form-wrap">
+    <section class="shortener-form">
+        <h2>Enter your link below and get it shortened, nice and easy.</h2>
+        <form method="post">
+            <input type="text" name="url" />
+            <input type="submit" value="Преобразовать" />
+        </form>
+        <div class="resp-area inactive" id="resp-area">
+        </div>
+    </section>
+    <h2>@ViewData["Result"]</h2>
+    <a href="@ViewData["Url"]">@ViewData["Url"]</a>
+</div>
